@@ -12,3 +12,5 @@ wget https://julialang.s3.amazonaws.com/bin/linux/x64/0.5/julia-0.5.1-linux-x86_
 tar -xvf julia-0.5.1-linux-x86_64.tar.gz
 export PATH=/home/dnanexus/julia-6445c82d00/bin:$PATH
 
+julia /home/dnanexus/setup-nexus-server/src/julia-setup.jl
+
