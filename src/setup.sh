@@ -6,7 +6,7 @@ conda config --add channels conda-forge
 conda config --add channels defaults
 conda config --add channels r
 conda config --add channels bioconda
-conda install deeptools
+conda install -y deeptools
 
 wget https://julialang.s3.amazonaws.com/bin/linux/x64/0.5/julia-0.5.1-linux-x86_64.tar.gz
 tar -xvf julia-0.5.1-linux-x86_64.tar.gz
