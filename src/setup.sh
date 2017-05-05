@@ -7,6 +7,12 @@ conda config --add channels defaults
 conda config --add channels r
 conda config --add channels bioconda
 conda install -y deeptools
+conda install -y R
+
+sudo mv /usr/bin/R /usr/bin/R2
+
+export PATH=/home/dnanexus/miniconda2/bin:$PATH
+ 
 
 wget https://julialang.s3.amazonaws.com/bin/linux/x64/0.5/julia-0.5.1-linux-x86_64.tar.gz
 tar -xvf julia-0.5.1-linux-x86_64.tar.gz
