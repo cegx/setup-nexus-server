@@ -7,7 +7,7 @@ Pkg.add("StatPlots")
 Pkg.add("RCall")
 Pkg.add("MultipleTesting")
 Pkg.add("CSV")
-
+pkg.add("ArgParse")
 
 using Plots
 using DataTables
@@ -17,3 +17,4 @@ using StatPlots
 using RCall
 using MultipleTesting
 using CSV
+using ArgParse
