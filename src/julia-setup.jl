@@ -6,6 +6,8 @@ Pkg.add("Memento")
 Pkg.add("StatPlots")
 Pkg.add("RCall")
 Pkg.add("MultipleTesting")
+Pkg.add("CSV")
+
 
 using Plots
 using DataTables
@@ -14,5 +16,4 @@ using Memento
 using StatPlots
 using RCall
 using MultipleTesting
-
-
+using CSV
