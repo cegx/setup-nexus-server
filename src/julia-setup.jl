@@ -7,7 +7,7 @@ Pkg.add("StatPlots")
 Pkg.add("RCall")
 Pkg.add("MultipleTesting")
 Pkg.add("CSV")
-pkg.add("ArgParse")
+Pkg.add("ArgParse")
 
 using Plots
 using DataTables
