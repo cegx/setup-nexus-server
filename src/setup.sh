@@ -7,9 +7,13 @@ conda config --add channels defaults
 conda config --add channels r
 conda config --add channels bioconda
 conda install -y deeptools
+conda install -y jellyfish
+conda install -y bedtools
 conda install -y R
 conda install -y wiggletools
 conda install -y epic
+conda install -y macs2
+
 
 # move the old default version of R, so we use conda R instead
 sudo mv /usr/bin/R /usr/bin/R2
